@@ -10,8 +10,8 @@ app.use(cors());
 app.use(express.json()); 
 
 // Connect to your MongoDB database (replace with your database URL) 
-//mongoose.connect("mongodb+srv://snehaguptadmc:pXgLeGJ4XshHxOx2@cluster0.w5jwr6r.mongodb.net/");
-mongoose.connect("mongodb://localhost:27017");
+mongoose.connect("mongodb+srv://snehaguptadmc:pXgLeGJ4XshHxOx2@cluster0.w5jwr6r.mongodb.net/");
+//mongoose.connect("mongodb://localhost:27017");
 
 
 // Check for database connection errors 
