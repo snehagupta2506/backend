@@ -12,7 +12,8 @@ app.use(express.json());
 // Connect to your MongoDB database (replace with your database URL) 
 //mongoose.connect("mongodb+srv://snehaguptadmc:pXgLeGJ4XshHxOx2@cluster0.w5jwr6r.mongodb.net/");
 //mongoose.connect("mongodb+srv://snehagupta25dmc:9Lq754MNEFc8GEE4@cluster0.axtpcjs.mongodb.net/todos?retryWrites=true&w=majority&appName=Cluster0")
-mongoose.connect("mongodb://localhost:27017");
+//mongoose.connect("mongodb://localhost:27017");
+mongoose.connect("mongodb://127.0.0.1/todo")
 
 
 // Check for database connection errors 
